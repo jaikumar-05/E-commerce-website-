@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+
+    <style>
+        
+
+        .header{
+            position: sticky;
+            top: 0;
+            background-color: white;
+        
+        }
+        nav,.a{
+            width: 80%;
+            margin: 0% auto;
+           
+        }
+        
+      
+        nav{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            cursor: pointer;
+            justify-content: space-between;
+            margin: 0% auto;
+            border-bottom: 2px solid;
+        }
+
+        
+        .header:hover{
+            background-color:rgb(0, 255, 110);
+            color: rgb(230, 220, 245);
+        }
+        
+        .a1{
+            padding-bottom: 40px;
+            border-bottom: outset ;
+            margin-bottom: -53px;
+            width: 25%;
+            display: flex;
+            justify-content: space-around;
+         
+        }
+        .a2{
+            padding-left: 50px;
+        }
+       
+
+        .a{
+            display: grid;
+            grid-template-columns: 60% 40%;
+            /* margin-left:50px;
+            margin-bottom: 50px;
+            padding-bottom:30px ; */
+      
+        }
+        .b{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 30px;
+            margin-left: 40px;
+            gap: 30px;
+        }
+        .c{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin-left: 60px;
+            padding-bottom: 40px;
+            gap: 20px;
+        }
+        .d{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 10vh;
+            margin: 0;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            
+        }
+
+        button{
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        .e{
+            display: grid;
+            grid-template-columns:auto auto;
+            padding-left: 100px;
+            padding-bottom: 50px;
+            padding-right: 50px;
+            gap: 50px;
+        }
+
+        .f1{
+            display: flex;
+            align-items: center;
+        }
+        .f2{
+            display: grid;
+            grid-template-columns: 80% 20%;
+        }
+        .f4{
+            display: grid;
+            grid-template-columns:20% 20% 60% ;
+            padding-left: 40px;
+            padding-bottom: 50px;
+        }
+        .f3{
+            display: grid;
+            grid-template-columns:80% 20%;
+
+        }
+        li{
+            list-style-type: none;
+        }
+        ul{
+            display: grid;
+            grid-template-columns:25% 25% 25% 25%;
+        }
+       
+        p{
+            font-size: 20px;
+            font-style: oblique;
+        }
+
+        @media (max-width:600px) {
+            .a{
+                display: grid;
+                grid-template-columns: 100%;
+            }
+
+            .b{
+                         
+                display: grid;
+                grid-template-columns: 100%;
+            }.c{
+                display: grid;
+                grid-template-columns: 100%;
+            }     
+        }
+
+    
+        
+ 
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+    <nav>
+    
+    <div>
+        <h1 style="color: darkred;font-size: 40px;">CRICKET </h1>
+    </div> 
+    <div class="a1">
+        <a>Home</a>
+        <a>Latest</a>
+        <a>About</a>
+    </div> 
+    
+    </nav>
+    </div>
+   <Br>
+    <div class="a">
+        
+        <div>
+        <img src="../asset_img/Cricket-Shutterstock-1019x573.webp"height="90%" width="90%" >
+        </div>
+    <div  class="a2">
+        <h3 style="font-size: 30px;">ILLUSTRATION</h3>
+        <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 40px;padding: 10px;
+        margin: 2%;">Cricket continues to be the most popular sport in India <br> 
+        </p>
+        <p style="padding: 10px;
+        margin: 2%;">According to the Indian Cricket Fandom report which 
+                also highlights growing interest in women's cricket. The report reveals that MS Dhoni and Virat Kohli are the favourite athletes among fans. The first cricket club in India was founded in 1792, making it the sixth team to receive Test status in the sport.
+        </p>
+        <a href="https://www.bcci.tv/" target="_blank">bcci</a>
+        </div>
+    </div>
+    <br><br><br>
+
+<div class="b">
+    <div>
+        <img width="400px" src="../asset_img/download.jpeg">
+        <br>
+        <h1>TEST</h1>
+        <p>The term "test match" was originally coined in 1861 but in a different context.</p>
+        <a href="https://en.wikipedia.org/wiki/Test_cricket">TEST</a>
+    </div>
+
+    <div>
+        <img width="400px" height="210px" src="../asset_img/the-odi-format-may-soon-disappear.jpg">
+        <h1>ODI</h1>
+        <p>The first ODI was played on 5 January 1971 between Australia and England  </p>
+        <a href="https://en.wikipedia.org/wiki/One_Day_International" target="_blank">ODI</a>
+    </div>
+    <div>
+        <img width="400px" height="210px" src="../asset_img/download (1).jpeg" alt="">
+
+        <h1>T20</h1>
+        <p>Twenty20 is a shortened game format of cricket. At the professional level,<br> it was introduced by the England </p>
+        <a href="https://en.wikipedia.org/wiki/Twenty20">T20</a>
+    </div>
+</div>
+<div class="b">
+
+    <div style="margin-right: 50px;">
+        <img  width="400px" height="210px" src="../asset_img/download (2) wtc.jpeg" >
+
+        <h1>World Test Championship</h1>
+        <p>The ICC World Test Championship, also referred to as the Test World Cup,is a league competition for Test cricket run by the International Cricket Council
+
+           </p><br>
+           <a href="https://en.wikipedia.org/wiki/ICC_World_Test_Championship"> WTC</a>
+    </div>
+    <div style="
+        margin-right: 10px;
+    ">
+       <img width="300px" height="210px"  src="../asset_img/ICC_Cricket_World_Cup_Trophy.jpg" >
+
+       <h1>Cricket World Cup</h1>
+       <p>The Cricket World Cup, officially known as ICC Men's Cricket World Cup, is the international championship of One Day International .</p>
+       <a href="https://en.wikipedia.org/wiki/Cricket_World_Cup">odi wc</a>
+    </div>
+    <div style="margin-left: 100px;">
+        <img  width="300px" height="210px"  src="../asset_img/images.jpeg" alt="">
+    <h1> T20 World Cup</h1>
+    <p>The event has generally been held every two years. In May 2016, the ICC put forward the idea of having a tournament in 2018, with South Africa being the possible host</p>
+    <a href="https://en.wikipedia.org/wiki/ICC_Men%27s_T20_World_Cup">t20 wc</a>
+    </div>
+
+</div>
+<hr style="height: 2px; background-color: black;">
+<H6>lastest posts</H6>
+<div class="c">
+    <div>
+        <img width="180px" src="../asset_img/Pat-Cummins-of-Australia-lifts-the-ICC-World-Test-Championship-Mace-on-day-five-of-the-ICC-World-Test-Championship-Final-between-Australia-and-India.jpg">
+        <h5>ILLUSTRATION</h5>
+        <p>Australia might still be revelling in their triumph over India in the ICC World Test Championship Final 2023</p>
+        <a href="https://www.icc-cricket.com/news/3537038" target="_blank">wtc</a>
+    </div>
+    <div>
+        <img width="180px" src="../asset_img/wmsrfzdcgcspu8grtusk.webp">
+        <h5>Photography</h5>
+        <p>ICC ODI World Cup 2023 Winner: Australia Wins Sixth Cricket World Cup Titler.</p>
+        <br>
+        <a href="https://www.jagranjosh.com/general-knowledge/icc-odi-world-cup-2023-winner-australia-1700409382-1" target="_blank">wc</a>
+    </div>
+    <div>
+        <img  width="180px" src="../asset_img/England-team-photo.webp">
+        <h5>Photography</h5>
+        <p> England's victory over Pakistan in the final of the ICC Men's T20 World Cup 2022</p>
+        <br>
+        <a href="https://2022.t20worldcup.com/news/2907634" target="_blank">t20</a>
+    </div>
+    <div>
+        <img width="180px" src="../asset_img/image_-_2023-01-17T175538797_1673958449777_1673958449953_1673958449953.avif">
+        <h5>ICC ranking</h5>
+        <p>Massive ICC blunder sees India pip Australia to become No.1 ranked Test team</p>
+        <br><br><br>
+        <a href="https://www.icc-cricket.com/rankings/mens/overview" target="_blank">icc</a>
+    </div>
+</div>
+    <div class="c">
+        <div>
+        <img  width="200px" src="../asset_img/IND-AUS-31.webp">
+        <h5>ICC ranking</h5>
+        <p>The race for supremacy in the ODI Team Rankings has seen a fierce battle in recent times, with India, Pakistan, and Australia vying for the coveted top position.</p>
+        <a href="https://www.icc-cricket.com/rankings/mens/overview" target="_blank">icc</a>
+    </div>
+    <div>
+        <img width="180px" src="../asset_img/download (2).jpeg">
+        <br><br>
+        <h5>ICC ranking</h5>
+        <p>Massive ICC blunder sees India pip Australia to become No.1 ranked T20 team"</p>
+        <a href="https://www.icc-cricket.com/rankings/mens/overview" target="_blank">icc</a>
+    </div>
+    <div>
+        <img  width="180px" src="../asset_img/Cummins-Lyon.webp">
+        <h5>Australia news</h5>
+        <p>Cummins issues Warne challenge to Lyon following 500-wicket milestone</p>
+        <br>
+        <a href="https://www.icc-cricket.com/news/3827926" target="_blank">icc</a>
+    </div>
+    <div>
+        <img  width="180px" src="../asset_img/GettyImages-1495937201.webp">
+        <h5>India news</h5>
+        <p>Young gun withdraws from India's squad for South Africa Tests</p>
+        <br><br>
+        <a href="https://www.icc-cricket.com/news/3827926" target="_blank">icc</a>
+    </div>
+</div>
+<div class="d">
+    <button type="button">view all lastest posts</button>
+    </div>
+<hr style="height: 1px;margin-bottom: 80px;">
+<div>
+    <h1 style="color: red;">ICC Hall of Fame</h1>
+</div>
+    <div class="e">
+       
+    <div>
+        <img width="400px" height="400px" src="../asset_img/Sachin.webp">
+        <br><br>
+        <h1>SACHIN TENDULKAR</h1>
+        <p>
+    
+            INDUCTED: 2019
+            
+            CAREER: 1989 - 2013
+            TEST RUNS : 15,921
+            
+            ODI RUNS : 18,426
+            
+            INTERNATIONAL 100S : 100
+            
+            100 international centuries. The first player to play 200 Tests. The first to score 200 in a Men's ODI. The leading run scorer in both Tests (15,921 runs) and ODIs (18,426 runs).</p>
+        <a href="https://www.icc-cricket.com/hall-of-fame/hall-of-famers/player/97" target="_blank">Sachin</a>
+    </div>
+    <div>
+        <img width="400pxpx" height="400px" src="../asset_img/GettyImages-137671078.webp">
+        <h1>RICKY PONTING</h1>
+        <p>
+            INDUCTED: 2018
+            CAREER: 1995 - 2012
+            TEST RUNS : 13,378 
+            ODI RUNS : 13,704
+            INTERNATIONAL 100S : 71
+         Australia's leading run scorer in both Tests and ODIs, scoring over 13,000 runs in both formats, Ricky Ponting is one of Australia's greatest ever.</p>
+        <a href="https://www.icc-cricket.com/hall-of-fame/hall-of-famers/player/97" target="_blank">RICKY PONTING</a>
+    </div>
+    </div>
+    <div class="e">
+    <div>
+        <img width="400px" height="350px" src="../asset_img/GettyImages-858421850.webp">
+        <h1>BRIAN LARA</h1>
+        <p>INDUCTED: 2012
+            CAREER: 1990 - 2007
+            TEST RUNS : 11,953
+            HIGHEST TEST SCORE : 400
+            TEST 100S : 34 
+            Only 10 players have been lucky enough to say they've held the record for the highest individual Test score in men's cricket</p>
+        <a href="https://www.icc-cricket.com/hall-of-fame/hall-of-famers/player/97" target="_blank">BRIAN LARA</a>
+    </div>
+    <div>
+        <img width="400px" height="350" src="../asset_img/GettyImages-56497013.webp">
+        <h1>GLENN MCGRATH</h1>
+        <p>INDUCTED: 201
+            CAREER: 1993 - 2007
+            TEST WICKETS : 563
+            ODI WICKETS : 38
+            BEST ODI BOWLING FIGURES : 7/15
+         One of only three players to win three ICC Men's Cricket World Cup titles, Glenn McGrath's stats are something to behold. 563 wickets in Tests .</p>
+        <a href="https://www.icc-cricket.com/hall-of-fame/hall-of-famers/player/97" target="_blank">GLENN MCGRATH</a>
+    </div>
+    </div>
+</div>
+
+<footer style="background-color: black; color: white;">
+    <div class="f1">
+        <div>
+        <h1 style="padding-left: 40px;">cricket</h1>
+        </div>
+        <div style="padding-left: 20px; padding-top: 10px;">
+        <h6 style="color: gray;">&#169;2023 International Cricket Council  ALL RIGHTS RESERVED</h6>
+        </div>
+    </div>
+    <hr style="height: 1px;margin-top: 30px;margin-bottom: 90px;">
+    <div class="f2">
+    <div style="padding-left: 40px;">
+    <h5 style="color: gray;">CATEGORIES</h5>
+    </div>
+    <div>
+        <h5 style="color: gray;">SUBSCRIBE TO NEWSLETTER</h5>
+    </div>
+</div>
+    <div class="f3">
+        <div>
+            <ul style="list-style-type: none;">
+                <li>Privacy Policy </li>
+                <li>Legal Notice</li>
+                <li>Social Responsibility</li>
+                <li>Miscellaneous</li>
+                <li>Interactive Design</li>
+                <li>Photography</li>
+                <li>Illustration</li>
+                <li>Product Design</li>
+            </ul>
+        </div>
+        <div>
+            <input type="text" value="mail address" style="padding: 10px;">
+            <input type="submit" value="send" style="margin-left: -3%;background-color: black;color: white;padding: 10px;">
+         </div>
+        
+
+    </div>
+    <div class="f4">
+        <div>
+            <h5 style="color: gray;">INFORMATION</h5>
+            <ul style="list-style-type: none;"></ul>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Terms</li>
+        </ul>
+        </div>
+        <div>
+            <h5 style="color: gray;">FOLLOW US</h5>
+            <ul style="list-style-type: none;"></ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+        </div>
+        <div>
+            <h5 style="color: gray;">TEMPLATE</h5>
+            <ul style="list-style-type: none;"></ul>
+            <li>Image License Info </li>
+            <li>POwered BY Webflow</li>
+        </div>
+        <div>
+            <h5 style="color: gray;">SOCIAL RESPONSIBILITY</h5>
+            <li>Cricket for Good</li>
+        </div>
+        <div>
+            <h5 style="color: gray;">BROADCAST PARTNER</h5>
+            <li>Star sports</li>
+        </div>
+    </div>
+</footer>
+
+    
+</body>
+</html>

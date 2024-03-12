@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../asset_img/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="/HtmlTask/bootstrap.bundle.min.js"></script>
+    <style>
+      .a{
+        display: flex;
+        justify-content: space-around;
+        justify-content: center;
+      }
+      button:hover{
+            /* background-color: black; */
+            color: rgb(183, 0, 255);
+        }
+        button{
+          background-color: greenyellow;
+        }
+
+        .d{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 10vh;
+            margin: 0;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            color: chocolate;
+            
+        }
+
+        .cen{
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%,-50%);
+ }
+
+ .e{
+  display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 10vh;
+            margin: 0;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            color: rgb(210, 30, 30);
+ }
+ .f{
+display: flex;
+align-items: center;
+justify-content: center;
+            height: 10vh;
+            margin: 0;
+            padding-top: 50px;
+            padding-bottom: 70px;
+color: blueviolet;
+ }
+ .v
+ {
+  display: flex;
+align-items: center;
+justify-content: center;
+            height: 50vh;
+            margin: 0;
+          
+ }
+ .o{
+  display: flex;
+align-items: center;
+justify-content: center;
+            height: 10vh;
+            margin: 0;
+            padding-top: 20px;
+            padding-bottom: 3px;
+color: blueviolet;
+ }
+.r{
+  display: flex;
+align-items: center;
+justify-content: center;
+            height: 50vh;
+            margin: 0;
+
+}
+.z{
+ display: flex;
+align-items: center;
+justify-content: center;
+            height: 50vh;
+            margin: 0;
+}
+.t{
+
+  padding: auto;
+  padding: bottom 70px;;
+}
+ .k:r{
+background-color:rebeccapurple
+ }
+
+
+    </style>
+</head>
+<body>
+  <!-- <nav class="navbar navbar-expand-lg bg-body-secondary">
+    <div class="container-fluid">
+      <div>
+      <i class="fa-solid fa-location-dot"></i>
+      3, Samruddi, 4th Main, 60ft Road, Annapoorneshwarinagar, Bengaluru, Karnataka 560091
+    </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="a" class="collapse navbar-collapse focus-ring-light bg-secondary-subtle" id="navbarSupportedContent">
+        <div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Mon-Sat:08AM-08PM</a>
+          </li>
+        </ul>
+        </div>
+        <div>
+          <ul>
+          <li class="nav-item">
+            <h6>+919952423511</h4>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </li>
+        </ul>
+      </div>   
+      </div>
+    </div>
+    </nav> -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary " >
+    <div class="container-fluid bg-secondary  ">
+      <h1 class="font-monospace container">FreshON</h1>
+   
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar link-offset-1" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact Us">Contact Us</a>
+          
+        <br><br>  
+        </ul>
+          <form  class="d-flex" role="search">
+          <input onkeyup="searchUp(event)" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav><br><br>
+
+<nav>
+  <div class="a2">
+<a style="padding-left: 40px; text-decoration: none; color: rgb(0, 0, 0); font-size: 20px;" href="#home">Home</a>
+<a style="padding-left: 6%; text-decoration: none;  color: rgb(0, 0, 0); font-size: 20px;" href="#Millets">Millets</a>
+<a style="padding-left: 6%; text-decoration: none;  color: rgb(0, 0, 0); font-size: 20px;" href="#staples">staples</a>
+<a style="padding-left: 6%; text-decoration: none;  color: rgb(0, 0, 0); font-size: 20px;" href="#Honey">Honey</a>
+<a style="padding-left: 6%; text-decoration: none;  color: rgb(0, 0, 0); font-size: 20px;" href="#Rava or sooji">Rava or sooji</a>
+<a style="padding-left: 6%; text-decoration: none;  color: rgb(0, 0, 0); font-size: 20px;" href="#Sweet & Salt">Sweet & Salt</a>
+<a style="padding-left: 6%;text-decoration: none;  color: rgb(0, 0, 0); font-size: 20px;" href="#Spices">Spices</a>
+<a style="padding-left: 6%; text-decoration: none;  color: rgb(0, 0, 0); font-size: 20px;" href="#Oil & Ghees">Oil & Ghees</a>
+</div>
+</nav>
+<br>
+
+
+
+          <div style="padding: 20px; ;" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"> 
+            <div class="carousel-inner" >
+              <div class="carousel-item active">
+                <img src="../asset_img/desktop-wallpaper-there-is-no-denying-that-online-shopping-is-one-of-the-biggest-groceries.jpg" height="400px" width="40%" class="d-block w-100" alt="...">
+                <div class="cen">
+           
+           <!-- <input style="font-size: xx-large; background-color: none;  width: 200px; height: 60px;" type="button" value="read more" > -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../asset_img/pexels-andrea-piacquadio-3769747.jpg"height="400px" width="40%" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../asset_img/supermarket-landscape-design-template-dd8ed359dbd2609045b0f3f6bf081169_screen.jpg"height="400px" width="40%" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> <br><br> <br>
+
+<div class="row container" style="padding-left: 150px;">
+<div class="col-3 fa-5x">
+  <i class="fa-solid fa-cart-shopping"></i>
+  <h2>cart-shopping</h2>
+</div>
+<div class="col-3 fa-5x" >
+  <i class="fa-solid fa-truck-fast"></i>
+  <h2>Truck-fast</h2>
+  </div>
+  <div class="col-3 fa-5x">
+    <i class="fa-brands fa-shopify"></i>
+    <h2>Shopify</h2>
+    </div>
+    <div class="col-3 fa-5x " >
+      <i class="fa-solid fa-check"></i>
+      <h2>Quality Products</h2>
+      </div>
+</div><br><br>
+<div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+  <div class="container about px-lg-0">
+      <div class="row g-0 mx-lg-0">
+          <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+              <div class="position-relative h-100">
+                  <img class="position-absolute img-fluid w-100 h-100" src="../asset_img/desktop-wallpaper-commerce-online-shopping.jpg" style="object-fit: cover;" alt="">
+              </div>
+          </div>
+          <div id="about" class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+              <div class="p-lg-5 pe-lg-0">
+                  <div class="section-title text-start">
+                      <h1 class="display-5 mb-4">About Us</h1>
+                  </div>
+                  <p class="mb-4 pb-2">COMMITTED FOR HEALTHY SOCIETY
+                    Found the SOLUTION for social devil called “FOOD ADULTERATION”
+                    With an effort of 3+ years of research with 32+ industrial experts support, got that ORIGINAL GROCERY.Reach us for HEALTHY GROCERY to your Doorstep 🚛</p>
+                  <div class="row g-4 mb-4 pb-2">
+                      <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                          <div class="d-flex align-items-center">
+                              <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                  <i class="fa fa-users fa-2x text-primary"></i>
+                              </div>
+                              <div class="ms-3">
+                                  <h2 class="text-primary mb-1" data-toggle="counter-up">1234</h2>
+                                  <p class="fw-medium mb-0">Happy Clients</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                          <div class="d-flex align-items-center">
+                              <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                  <i class="fa fa-check fa-2x text-primary"></i>
+                              </div>
+                              <div class="ms-3">
+                                  <h2 class="text-primary mb-1" data-toggle="counter-up">1234</h2>
+                                  <p class="fw-medium mb-0">Projects Done</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <a href="" class="btn btn-primary py-3 px-5" style="background-color: blueviolet;">Explore More</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="d" >
+<h1>_Our Products_</h1>
+</div>
+<div  style="padding: 50px;" class="row row-cols-1 row-cols-md-3 g-4">
+  <div id="Millets" class="col">
+    <div  class="card h-100">
+      <img src="../asset_img/download (3).jpeg" class="card-img-top" alt="...">
+      <div  class="card-body">
+        <h5 class="card-title">MILLETS</h5>
+        <p class="card-text">
+Millets belong to the grain family, the oldest form of human food, unpolished millets rich in fiber. BB Royal’s Organic Barnyard Millet/ Kudiraivali Rice is a premium staple, packed with nutrients.</p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+  <div id="staples" class="col">
+    <div class="card h-100">
+      <img src="../asset_img/assortment-pantry-ingredients-on-rustic-260nw-1687699909.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">STAPLES</h5>
+        <p class="card-text">
+      A food staple is a food that makes up the dominant part of a population's diet. Food staples are eaten regularly—even daily.</p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+  <div id="Rava or sooji" class="col">
+    <div class="card h-60 "  style="height: 40px;">
+      <img src="../asset_img/images (1).jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Rava or sooji</h5>
+        <p class="card-text">
+          Semolina, also known as Rava or sooji, is a coarse flour that is made from Durum wheat and can vary in color from yellow to white depending on the quality of the wheat. rava is the coarsely ground.</p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+       
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<div style="padding: 50px;" class="row row-cols-1 row-cols-md-3 g-4">
+  <div id="Sweet & Salt" class="col">
+    <div class="card h-100" style="height: 100%;">
+      <img height="320px"  src="../asset_img/images (2).jpeg" class="card-img-top;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SWEET & SALT</h5>
+        <p class="card-text">
+          Salt is used as a universal flavour improver because at low concentrations it will reduce bitterness, but increase sweet, sour and umami, which is desirable for sweet recipes. But at higher concentrations it suppresses sweetness and enhances umami, which is good for savoury things.</p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="" >Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+  <div id="Spices" class="col">
+    <div class="card h-100">
+      <img height="320px" src="../asset_img/IMG-0926-scaled.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SPICES</h5>
+        <p class="card-text">
+          A Product of FreshOn.in 🛒 Designed this *SAMBAR & CURRY POWDER* suitable for both SAMBAR & CURRIES 😋 Prepared With Love & Passion, keeping TASTE & HEALTH in Mind Used TOP Quality NATURAL Ingredients 👌 Made for FreshOn.in Family Members 👨‍👩‍👧‍👦
+
+        </p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+  <div id="Oil & Ghees"  class="col">
+    <div class="card h-60 "  style="height: 40px;">
+      <img height="320px" src="../asset_img/25-min-1-300x300.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">OIL & GHEES</h5>
+        <p class="card-text">
+          Fresh flaxseed is grown by organic farmers. Flaxseed oil, sometimes referred to as linseed, is produced by pressing the seeds under cold pressure. It has a healthy ratio of omega-3s (ALA) and omega-6s, two important fatty acids, in particular (linoleic acid). </p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+  <div class="container feature px-lg-0">
+      <div class="row g-0 mx-lg-0">
+          <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+              <div id="Services" class="p-lg-5 ps-lg-0">
+                  <div class="section-title text-start">
+                      <h1 class="display-5 mb-4">Why Choose Us_</h1>
+                  </div>
+                  <p class="mb-4 pb-2">When you buy Grocery from us, you can rest assured the Quality delivered to YOU and Value is passed directly to the FARMER.</p>
+                  <div class="row g-4">
+                      <div class="col-6">
+                          <div class="d-flex align-items-center">
+                              <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white fa-2x" style="width: 60px; height: 60px; color: rgb(12, 12, 12);">
+                                <i class="fa-solid fa-check fa-2x"></i>
+                              </div>
+                              <div class="ms-4">
+                                  <p class="mb-2">Quality</p>
+                                  <h5 class="mb-0">Services</h5>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-6">
+                          <div class="d-flex align-items-center">
+                              <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px; color:rgb(18, 17, 17);">
+                                <i class="fa-solid fa-lock fa-2x"></i>
+                              </div>
+                              <div class="ms-4">
+                                  <p class="mb-2">Secure </p>
+                                  <h5 class="mb-0">Payments</h5>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-6" fa>
+                          <div class="d-flex align-items-center">
+                              <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                <i class="fa-solid fa-indian-rupee-sign fa-3x"></i>
+                              </div>
+                              <div class="ms-4">
+                                  <p class="mb-2">Best Price</p>
+                                  <h5 class="mb-0">Offering</h5>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-6">
+                          <div class="d-flex align-items-center">
+                              <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                <i class="fa-solid fa-headphones fa-3x"></i>
+                              </div>
+                              <div class="ms-4">
+                                  <p class="mb-2">Customer</p>
+                                  <h5 class="mb-0">Support</h5>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+              <div class="position-relative h-100">
+                  <img class="position-absolute img-fluid w-100 h-100" src="../asset_img/32-min.png" style="object-fit: cover;" alt="">
+              </div>
+          </div>
+      </div>
+  </div>
+</div><br><br>
+<div class="e">
+<h1>_Our Products_</h1> 
+</div>
+
+<div style="padding: 50px;" class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="../asset_img/7-min.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HONEY</h5>
+        <p class="card-text">
+          ✅ Finest quality Gulkand, made from Roses (Spring Roses).
+          ✅ Comes in a premium Packing Glass Jar.
+          ✅ Gulkand is a powerful antioxidant and a very good Rejuvenator.</p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../asset_img/4-min.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BEVERAGES</h5>
+        <p class="card-text">
+          Drinks such as soda pop, sparkling water, iced tea, lemonade, root beer, fruit punch, milk, hot chocolate, tea, coffee, milkshakes, tap water, bottled water, juice and energy drinks are all soft drinks.</p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-60 "  style="height: 40px;">
+      <img src="../asset_img/1-min.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">DRY FRUITS</h5>
+        <p class="card-text">
+          Almonds should be consumed daily since they are one of the few nuts with the greatest content of “good fat” that can lower cholesterol levels. Very good for health and reduce the extra fat in our body </p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<div style="padding: 50px;" class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100" style="height: 100%;">
+      <img height="320px"  src="../asset_img/8-min.png" class="card-img-top;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">JAGGERY</h5>
+        <p class="card-text">
+          BEST ALTERNATE FOR SUGAR BROWN 👍 ✅ Rich source of IRON ✅ Helps DIGESTION ✅ Can be used in many RECIPES ✅ Alternative to REFINED SUGAR ✅ Helps cure ANAEMIA About the product.</p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="../Java Script/doc.html">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img height="320px" src="../asset_img/5-min.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SPICES</h5>
+        <p class="card-text">
+          A Product of FreshOn.in 🛒 Designed this *SAMBAR & CURRY POWDER* suitable for both SAMBAR & CURRIES 😋 Prepared With Love & Passion, keeping TASTE & HEALTH in Mind Used TOP Quality NATURAL Ingredients 👌 Made for FreshOn.in Family Members 👨‍👩‍👧‍👦
+
+        </p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-60 "  style="height: 40px;">
+      <img height="320px" src="../asset_img/25-min-1-300x300.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">OIL & GHEES</h5>
+        <p class="card-text">
+          Fresh flaxseed is grown by organic farmers. Flaxseed oil, sometimes referred to as linseed, is produced by pressing the seeds under cold pressure. It has a healthy ratio of omega-3s (ALA) and omega-6s, two important fatty acids, in particular (linoleic acid). </p>
+      </div>
+      <div class="card-footer">
+        <a style="text-decoration: none; color:red;" href="">Add to Cart</a>
+        <!-- <small class="text-body-secondary">Last updated 3 mins ago</small> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div   class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+  <div class="container quote px-lg-0">
+      <div class="row g-0 mx-lg-0">
+          <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+              <div class="position-relative h-100 " >
+                  <img class="position-absolute img-fluid w-100 h-100" src="../asset_img/istockphoto-1311934969-612x612.jpg" style="object-fit: cover; width: 80px;" alt="">
+              </div>
+          </div>
+          <div id="Contact Us" class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+              <div class="p-lg-5 pe-lg-0">
+                  <div  class="section-title text-start">
+                      <h1 class="display-5 mb-4">Contact Us</h1>
+                  </div>
+                  <p class="mb-4 pb-2">NO Preservatives, NO Artificial Colours, NO Chemical Treatment,
+                    NO Substandard Products mixing.</p>
+                  <form>
+                      <div class="row g-3">
+                          <div class="col-12 col-sm-6">
+                              <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                          </div>
+                          <div class="col-12 col-sm-6">
+                              <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                          </div>
+                          <div class="col-12 col-sm-6">
+                              <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                          </div>
+                          <!-- <div class="col-12 col-sm-6">
+                              <select class="form-select border-0" style="height: 55px;">
+                                  <option selected="">Select A Service</option>
+                                  <option value="1">Service 1</option>
+                                  <option value="2">Service 2</option>
+                                  <option value="3">Service 3</option>
+                              </select>
+                          </div> -->
+                          <div class="col-12">
+                              <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                          </div>
+                          <div class="col-12">
+                              <button class="btn btn-primary w-100 py-3" onclick="submit()" type="submit">Submit</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="f">
+  <h1>_Team Members_</h1>
+</div>
+<div class="container-xxl py-5">
+  <div class="container">
+      <!-- <div class="section-title text-center">
+          <h1 class="display-5 mb-5">Team Members</h1>
+      </div> -->
+      <div class="row g-4">
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+              <div class="team-item">
+                  <div class="overflow-hidden position-relative">
+                      <img class="img-fluid" src="../asset_img/team-1.jpg" alt="">
+                      <div class="team-social">
+                          <!-- <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                          <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                          <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a> -->
+                      </div>
+                  </div>
+                  <div class="text-center border border-5 border-light border-top-0 p-4">
+                      <h5 class="mb-0">James Anderson</h5>
+                      <small>Manager</small>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+              <div class="team-item">
+                  <div class="overflow-hidden position-relative">
+                      <img class="img-fluid" src="../asset_img/team-2.jpg" alt="">
+                      <div class="team-social">
+                          <!-- <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                          <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                          <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a> -->
+                      </div>
+                  </div>
+                  <div class="text-center border border-5 border-light border-top-0 p-4">
+                      <h5 class="mb-0">Williams</h5>
+                      <small>Assit Manager</small>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+              <div class="team-item">
+                  <div class="overflow-hidden position-relative">
+                      <img class="img-fluid" src="../asset_img/team-3.jpg" alt="">
+                      <!-- <div class="team-social">
+                          <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                          <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                          <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                      </div> -->
+                  </div>
+                  <div class="text-center border border-5 border-light border-top-0 p-4">
+                      <h5 class="mb-0">Sam Anderson</h5>
+                      <small>Product Controller</small>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+              <div class="team-item">
+                  <div class="overflow-hidden position-relative">
+                      <img class="img-fluid" src="../asset_img/team-4.jpg" alt="">
+                      <!-- <div class="team-social">
+                          <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                          <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                          <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                      </div> -->
+                  </div>
+                  <div class="text-center border border-5 border-light border-top-0 p-4">
+                      <h5 class="mb-0">Josh</h5>
+                      <small>System Administrator</small>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>  
+
+
+
+
+<div class="o">
+  <h1>_USER TESTIMONIALS_</h1>
+</div>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <!-- <img style="height: 300px; width: 50px;;" src="../asset_img/25-min-1-300x300.png" class="d-block w-100" alt="..."> -->
+      <div class="v">
+      <img  style="height: 100px;" src="../asset_img/team-4.jpg" alt="">
+    </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h5> Josh</h5>
+        <p>Social media love… You guys are the best! Keep up the great work!.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <!-- <img src="..." class="d-block w-100" alt="..."> -->
+      <div class="r">
+      <img  style="height: 100px;" src="../asset_img/Cummins-Lyon.webp" alt="">
+    </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Geroge</h5>
+        <p>Happy handwritten thank you notes… I just wanted to let you know that it's been great working with you..</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!-- <img src="..." class="d-block w-100" alt="..."> -->
+      <div class="z">
+        <img  style="height: 100px;" src="../asset_img/team-1.jpg" alt="">
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>James Anderson</h5>
+        <p>Grateful email messages… Thank you so much for a job well done.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+  <div class="container py-5">
+      <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Address</h4>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>3, Samruddi, 4th Main, 60ft Road, Annapoorneshwarinagar, Bengaluru, Karnataka 560091</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9952423511</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>freashon.gmail.com</p>
+              <div class="d-flex pt-2">
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Featured  </h4>
+              <div class="t">
+                <ul style="list-style-type: none;">
+                    <li>Ready to Eat </li>
+                    <li>Beveragers</li>
+                    <li>Health Promotersry</li>
+                    <li>Dry Fruits</li>
+                    <li>Nature Friendly</li>
+                    
+                </ul>
+            </div>
+              <!-- <a class="btn btn-link" href="">Ready to Eat</a>
+              <a class="btn btn-link" href="">Beveragers</a>
+              <a class="btn btn-link" href="">Health Promotersr</a>
+              <a class="btn btn-link" href="">Dry Fruits</a>
+              <a class="btn btn-link" href="">Nature Friendly</a> -->
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Information</h4>
+              <div class="t">
+                <ul style="list-style-type: none;">
+                    <li>About Us </li>
+                    <li>Contact Us</li>
+                    <li>Our Services</li>
+                    <li>Terms & Conditions</li>
+                    <li>Support</li>
+                    
+                </ul>
+            </div>
+              <!-- <a class="btn btn-link" href="">About Us</a>
+              <a class="btn btn-link" href="">Contact Us</a>
+              <a class="btn btn-link" href="">Our Services</a>
+              <a class="btn btn-link" href="">Terms &amp; Condition</a>
+              <a class="btn btn-link" href="">Support</a> -->
+            
+          </div>
+     
+                
+          <!-- <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Newsletter</h4>
+              <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+              <div class="position-relative mx-auto" style="max-width: 400px;">
+                  <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                  <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+              </div>
+          </div> -->
+
+          <img  style="height: 100px; width: 200px;"   src="../asset_img/images.png" alt=""><br>
+          COMMITTED FOR HEALTHY SOCIETY
+          Found the SOLUTION for social devil called “FOOD ADULTERATION”
+          With an effort of 3+ years of research with 32+ industrial experts support, got that ORIGINAL GROCERY
+          Reach us for HEALTHY GROCERY to your Doorstep 🚛
+  </div><br>
+  <div class="container">
+      <div class="copyright">
+          <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                  © Your Site Name, All Right Reserved. <br>
+                  © 2014-2024 ELITECK SOLUTIONS AND SERVICES PVT LTD
+
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                  <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                  <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> -->
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+ <script>
+ </script>
+</body>
+</html>
